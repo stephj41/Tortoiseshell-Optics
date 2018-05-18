@@ -1,0 +1,44 @@
+html {
+  font-size: 18px
+}
+body {
+  line-height: 1.4;
+
+}
+
+.Container {
+  width: 960px;
+}
+
+.header-container {
+  display: flex;
+  margin-top: 1rem;
+  background-color: cadetblue;
+  color; white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container img {
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.header-container span {
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+nav {
+  display: block;
+  color: white;
+}
+
+nav ul {
+  display: inline-block;
+}
+
+.mobile-menu {
+  display: none;
+}
