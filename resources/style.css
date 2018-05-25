@@ -119,12 +119,35 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 560px) {
+  header div span {
+    display: none;
+  }
+
+  header {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .banner {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 9rem auto 0 auto;
+    text-align: center;
+  }
+
+  .banner h1 {
+    font-size: 1rem;
+  }
+}
+
 /*Service Section*/
 
 .service {
   display: flex;
   justify-content: center;
 }
+
 
 .containers {
   display: flex;
@@ -144,6 +167,23 @@ h1 {
 
 .containers img.paper-icon {
   width: 3.5rem;
+}
+
+@media only screen and (max-width: 560px) {
+  .service {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .containers {
+    height: auto;
+    margin: .77rem;
+    font-size: .77rem;
+  }
 }
 
 /*Supporting Content Section*/
@@ -171,6 +211,33 @@ h1 {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 560px) {
+  .support-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .info {
+    width: 100%;
+  }
+
+  .info .title {
+    width: 100%;
+    max-width: none;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .info p {
+    padding: 1rem;
+    font-size: .77rem;
+  }
+}
+
 /*Footer Section*/
 
 footer {
@@ -184,4 +251,14 @@ footer img {
   height: 1.5rem;
   margin-left: 2rem;
   margin-right: 1rem;
+}
+
+@media only screen and (max-width: 560px) {
+  footer {
+    justify-content: center;
+  }
+
+  footer div {
+    display: none;
+  }
 }
