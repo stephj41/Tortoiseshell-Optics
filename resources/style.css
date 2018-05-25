@@ -24,7 +24,7 @@ header {
   background-position: center;
   background-size: cover;
   height: 30rem;
-  overflow: visible;
+  padding-top: 1rem;
 }
 
 nav {
@@ -67,15 +67,17 @@ nav li {
   display: none;
 }
 
-header.flex {
+header .flex {
   justify-content: flex-end;
 }
+
+/*Banner Section*/
 
 .banner {
   display: inline-block;
   padding: 1.5rem 5rem;
   margin-top: 10rem;
-  margin-right: -2rem;
+  margin-right: 2rem;
   background-color: white;
 }
 
@@ -83,4 +85,72 @@ h1 {
   font-size: 2rem;
   line-height: 1.2;
   font-weight: bold;
+
+}
+
+/*Service Section*/
+
+.service {
+  display: flex;
+  justify-content: center;
+}
+
+.containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+}
+
+.containers img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.containers img.paper-icon {
+  width: 3.5rem;
+}
+
+/*Supporting Content Section*/
+
+.support-container {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
+.title {
+  background-color: cadetblue;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  max-width: 10rem;
+  font-weight: bold;
+}
+
+/*Footer Section*/
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  padding: 4rem 2rem;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
 }
